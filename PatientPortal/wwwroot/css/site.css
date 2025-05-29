@@ -19,6 +19,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background-color: rgb(233, 244, 253);
 }
 
 
@@ -134,8 +135,9 @@ a {
 
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
-  background-color: #f1f1f1;
+  background-color: #72d7b2;
   text-align: center;
+  float: right;
 }
 
 * {
@@ -155,4 +157,135 @@ a {
   content: "";
   display: table;
   clear: both;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  
+}
+
+td {
+   border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #04AA6D;
+  color: white;
+}
+.submitbutton {
+
+ background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333;
+}
+h1, h2 {
+    color: #2c5282;
+}
+.form-section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 5px;
+    background-color: #f8fafc;
+}
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.form-group {
+    flex: 1 1 300px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+.radio-group, .checkbox-group {
+    margin-bottom: 15px;
+}
+.radio-group label, .checkbox-group label {
+    font-weight: normal;
+    display: inline;
+    margin-left: 5px;
+}
+.radio-option, .checkbox-option {
+    margin-bottom: 5px;
+}
+.required::after {
+    content: " *";
+    color: red;
+}
+button {
+    background-color: #2c5282;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: #1a365d;
+}
+.reset-btn {
+    background-color: #718096;
+}
+.reset-btn:hover {
+    background-color: #4a5568;
+}
+.disclaimer {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
 }

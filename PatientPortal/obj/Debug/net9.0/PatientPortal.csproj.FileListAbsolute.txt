@@ -93,5 +93,6 @@
 /Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/ref/PatientPortal.dll
 /Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/5ink2iucos-3sgp1j954b.gz
 /Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/x6oizgksxv-3sgp1j954b.gz
-/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-8x5hc40dpo.gz
-/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-safoqqum36.gz
+/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/PatientPortal.sourcelink.json
+/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-x5tmy2p78f.gz
+/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-e2as1theoq.gz

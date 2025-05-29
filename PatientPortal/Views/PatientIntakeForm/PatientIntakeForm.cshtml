@@ -1,0 +1,417 @@
+﻿@{
+    ViewData["Title"] = "Patient Intake Form";
+}
+@model PatientPortal.Models.PatientIntakeModel
+@{
+}
+
+<div class="text-center">
+    <h1>Patient Intake Form</h1>
+    <p>Please complete this form to help us serve you better. Fields marked with * are required.</p>
+</div>
+<div class="container">
+    <form id="patientIntakeForm">
+        <!-- Personal Information Section -->
+        <div class="form-section">
+            <h2>Personal Information</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="firstName" class="required">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="middleName">Middle Name</label>
+                    <input type="text" id="middleName" name="middleName">
+                </div>
+                <div class="form-group">
+                    <label for="lastName" class="required">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="dateOfBirth" class="required">Date of Birth</label>
+                    <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender" class="required">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="nonbinary">Non-binary</option>
+                        <option value="other">Other</option>
+                        <option value="prefer-not-say">Prefer not to say</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="maritalStatus">Marital Status</label>
+                    <select id="maritalStatus" name="maritalStatus">
+                        <option value="">Select Marital Status</option>
+                        <option value="single">Single</option>
+                        <option value="married">Married</option>
+                        <option value="divorced">Divorced</option>
+                        <option value="widowed">Widowed</option>
+                        <option value="separated">Separated</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Contact Information Section -->
+        <div class="form-section">
+            <h2>Contact Information</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email" class="required">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="required">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="address1" class="required">Address Line 1</label>
+                    <input type="text" id="address1" name="address1" required>
+                </div>
+                <div class="form-group">
+                    <label for="address2">Address Line 2</label>
+                    <input type="text" id="address2" name="address2">
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="city" class="required">City</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="state" class="required">State/Province</label>
+                    <input type="text" id="state" name="state" required>
+                </div>
+                <div class="form-group">
+                    <label for="zipCode" class="required">Zip/Postal Code</label>
+                    <input type="text" id="zipCode" name="zipCode" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="country" class="required">Country</label>
+                    <input type="text" id="country" name="country" value="United States" required>
+                </div>
+                <div class="form-group">
+                    <label for="preferredContact" class="required">Preferred Contact Method</label>
+                    <select id="preferredContact" name="preferredContact" required>
+                        <option value="">Select Preferred Contact</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="text">Text Message</option>
+                        <option value="mail">Mail</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Emergency Contact Section -->
+        <div class="form-section">
+            <h2>Emergency Contact Information</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="emergencyName" class="required">Emergency Contact Name</label>
+                    <input type="text" id="emergencyName" name="emergencyName" required>
+                </div>
+                <div class="form-group">
+                    <label for="emergencyRelationship" class="required">Relationship</label>
+                    <input type="text" id="emergencyRelationship" name="emergencyRelationship" required>
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="emergencyPhone" class="required">Emergency Contact Phone</label>
+                    <input type="tel" id="emergencyPhone" name="emergencyPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="emergencyEmail">Emergency Contact Email</label>
+                    <input type="email" id="emergencyEmail" name="emergencyEmail">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Insurance Information Section -->
+        <div class="form-section">
+            <h2>Insurance Information</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="insuranceProvider" class="required">Insurance Provider</label>
+                    <input type="text" id="insuranceProvider" name="insuranceProvider" required>
+                </div>
+                <div class="form-group">
+                    <label for="policyNumber" class="required">Policy Number</label>
+                    <input type="text" id="policyNumber" name="policyNumber" required>
+                </div>
+                <div class="form-group">
+                    <label for="groupNumber">Group Number</label>
+                    <input type="text" id="groupNumber" name="groupNumber">
+                </div>
+            </div>
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="policyHolder" class="required">Policy Holder Name</label>
+                    <input type="text" id="policyHolder" name="policyHolder" required>
+                </div>
+                <div class="form-group">
+                    <label for="policyHolderRelation">Relationship to Policy Holder</label>
+                    <select id="policyHolderRelation" name="policyHolderRelation">
+                        <option value="self">Self</option>
+                        <option value="spouse">Spouse</option>
+                        <option value="parent">Parent</option>
+                        <option value="child">Child</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="insurancePhone">Insurance Phone</label>
+                    <input type="tel" id="insurancePhone" name="insurancePhone">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Medical History Section -->
+        <div class="form-section">
+            <h2>Medical History</h2>
+            <div class="form-group">
+                <label for="primaryCare">Primary Care Physician</label>
+                <input type="text" id="primaryCare" name="primaryCare">
+            </div>
+            
+            <div class="form-group">
+                <label for="visitReason" class="required">Reason for Visit</label>
+                <textarea id="visitReason" name="visitReason" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label>Do you have any allergies?</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="allergiesYes" name="allergies" value="yes">
+                        <label for="allergiesYes">Yes</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="allergiesNo" name="allergies" value="no">
+                        <label for="allergiesNo">No</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="allergiesList">If yes, please list allergies:</label>
+                <textarea id="allergiesList" name="allergiesList"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="currentMedications">Current Medications (including over-the-counter)</label>
+                <textarea id="currentMedications" name="currentMedications"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label>Have you been hospitalized in the last 5 years?</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="hospitalizedYes" name="hospitalized" value="yes">
+                        <label for="hospitalizedYes">Yes</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="hospitalizedNo" name="hospitalized" value="no">
+                        <label for="hospitalizedNo">No</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="hospitalizedReason">If yes, please explain:</label>
+                <textarea id="hospitalizedReason" name="hospitalizedReason"></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label>Medical Conditions (check all that apply):</label>
+                <div class="checkbox-group">
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="diabetes" name="conditions" value="diabetes">
+                        <label for="diabetes">Diabetes</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="heartDisease" name="conditions" value="heartDisease">
+                        <label for="heartDisease">Heart Disease</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="highBloodPressure" name="conditions" value="highBloodPressure">
+                        <label for="highBloodPressure">High Blood Pressure</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="asthma" name="conditions" value="asthma">
+                        <label for="asthma">Asthma</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="cancer" name="conditions" value="cancer">
+                        <label for="cancer">Cancer</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="arthritis" name="conditions" value="arthritis">
+                        <label for="arthritis">Arthritis</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="thyroidDisorder" name="conditions" value="thyroidDisorder">
+                        <label for="thyroidDisorder">Thyroid Disorder</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="other" name="conditions" value="other">
+                        <label for="other">Other</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="otherConditions">If other, please specify:</label>
+                <textarea id="otherConditions" name="otherConditions"></textarea>
+            </div>
+        </div>
+        
+        <!-- Lifestyle Section -->
+        <div class="form-section">
+            <h2>Lifestyle Information</h2>
+            <div class="form-group">
+                <label>Do you currently smoke tobacco?</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="smokeYes" name="smoke" value="yes">
+                        <label for="smokeYes">Yes</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="smokeNo" name="smoke" value="no">
+                        <label for="smokeNo">No</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="smokeFormer" name="smoke" value="former">
+                        <label for="smokeFormer">Former smoker</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label>Do you drink alcohol?</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="alcoholYes" name="alcohol" value="yes">
+                        <label for="alcoholYes">Yes</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="alcoholNo" name="alcohol" value="no">
+                        <label for="alcoholNo">No</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="alcoholOccasionally" name="alcohol" value="occasionally">
+                        <label for="alcoholOccasionally">Occasionally</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label>Do you exercise regularly?</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="exerciseYes" name="exercise" value="yes">
+                        <label for="exerciseYes">Yes</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="exerciseNo" name="exercise" value="no">
+                        <label for="exerciseNo">No</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="exerciseOccasionally" name="exercise" value="occasionally">
+                        <label for="exerciseOccasionally">Occasionally</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Family History Section -->
+        <div class="form-section">
+            <h2>Family Medical History</h2>
+            <div class="form-group">
+                <label>Have any immediate family members had the following conditions? (check all that apply):</label>
+                <div class="checkbox-group">
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="famDiabetes" name="familyHistory" value="diabetes">
+                        <label for="famDiabetes">Diabetes</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="famHeartDisease" name="familyHistory" value="heartDisease">
+                        <label for="famHeartDisease">Heart Disease</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="famHypertension" name="familyHistory" value="hypertension">
+                        <label for="famHypertension">Hypertension</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="famStroke" name="familyHistory" value="stroke">
+                        <label for="famStroke">Stroke</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="famCancer" name="familyHistory" value="cancer">
+                        <label for="famCancer">Cancer</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="famMentalIllness" name="familyHistory" value="mentalIllness">
+                        <label for="famMentalIllness">Mental Illness</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="famOther" name="familyHistory" value="other">
+                        <label for="famOther">Other</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="famOtherDetails">If other, please specify:</label>
+                <textarea id="famOtherDetails" name="famOtherDetails"></textarea>
+            </div>
+        </div>
+        
+        <!-- Consent Section -->
+        <div class="form-section">
+            <h2>Consent</h2>
+            <div class="form-group">
+                <div class="checkbox-option">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent" class="required">I certify that the information provided is accurate to the best of my knowledge. I understand that providing incorrect information can be dangerous to my health. I authorize the healthcare facility to release any information required to process insurance claims.</label>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="checkbox-option">
+                    <input type="checkbox" id="privacyPolicy" name="privacyPolicy" required>
+                    <label for="privacyPolicy" class="required">I acknowledge that I have been informed of the practice's privacy policy and understand my rights regarding my protected health information.</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-section">
+            <button type="submit">Submit Form</button>
+            <button type="reset" class="reset-btn">Reset Form</button>
+        </div>
+        
+        <div class="disclaimer">
+            <p>The information collected in this form is kept confidential and protected under HIPAA regulations. Your information will only be used for medical purposes and will not be shared with third parties without your consent.</p>
+        </div>
+    </form>
+    
+</div>
+</div>

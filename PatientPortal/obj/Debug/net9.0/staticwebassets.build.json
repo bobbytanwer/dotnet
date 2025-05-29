@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "krviFciDThNEUyRDAm4Xrep0stc3EYySEDfV+s+zfqc=",
+  "Hash": "wH/NwlJ6vp0tr0yt0qq4THPmwLvq647vSEJlps+iFzI=",
   "Source": "PatientPortal",
   "BasePath": "_content/PatientPortal",
   "Mode": "Default",
@@ -143,12 +143,12 @@
       "OriginalItemSpec": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-safoqqum36.gz",
+      "Identity": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-e2as1theoq.gz",
       "SourceId": "PatientPortal",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/PatientPortal",
-      "RelativePath": "js/site#[.{fingerprint=safoqqum36}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=e2as1theoq}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -157,8 +157,8 @@
       "RelatedAsset": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/js/site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "5wmszqjak2",
-      "Integrity": "G0JttfVS0IGqjB6DcWYxy0Mr9iettyQ+zTPPz+quPXY=",
+      "Fingerprint": "anf7ss5hbf",
+      "Integrity": "9mYB6SuEm0pfWiU7fvqxLcwFd5DRX9YDdQ6InLbeLTA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/js/site.js"
@@ -605,12 +605,12 @@
       "OriginalItemSpec": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-8x5hc40dpo.gz",
+      "Identity": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-x5tmy2p78f.gz",
       "SourceId": "PatientPortal",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/PatientPortal",
-      "RelativePath": "css/site#[.{fingerprint=8x5hc40dpo}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=x5tmy2p78f}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -619,8 +619,8 @@
       "RelatedAsset": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "36hwt4n8fk",
-      "Integrity": "FaQrnSTUDlaQFhmzwfX8NfrUh8RrCTYjDPw1ZJpMi9A=",
+      "Fingerprint": "3hg9dggvff",
+      "Integrity": "WRd87Bi9LpXGmwdDmuig/6v7RZu9eoxmNKNXtJ3vt1I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/css/site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "8x5hc40dpo",
-      "Integrity": "PJSceb6HeC5zZmSbi7WfucmxEEPkvYQOZeS2FJ/q6NI=",
+      "Fingerprint": "x5tmy2p78f",
+      "Integrity": "JTdNDJ1dsM9QPl5dsrXnQXjiv6s7s7WnTwCrOtQNxII=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "safoqqum36",
-      "Integrity": "jDpnFqFLKL72WFbA1PaZiXILMewYVda0wI0BaP77MAE=",
+      "Fingerprint": "e2as1theoq",
+      "Integrity": "ChlmRg3zI+nGAtSN6x3ZjcxvkNyUJelkdUUSuDjwt/k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
@@ -2728,13 +2728,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.8x5hc40dpo.css",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-8x5hc40dpo.gz",
+      "Route": "css/site.css",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-x5tmy2p78f.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001135073780"
+          "Quality": "0.000691562932"
         }
       ],
       "ResponseHeaders": [
@@ -2744,19 +2744,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "880"
+          "Value": "1445"
         },
         {
           "Name": "ETag",
-          "Value": "\"FaQrnSTUDlaQFhmzwfX8NfrUh8RrCTYjDPw1ZJpMi9A=\""
+          "Value": "\"WRd87Bi9LpXGmwdDmuig/6v7RZu9eoxmNKNXtJ3vt1I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:28:16 GMT"
+          "Value": "Sun, 18 May 2025 00:16:37 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2772,26 +2772,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PJSceb6HeC5zZmSbi7WfucmxEEPkvYQOZeS2FJ/q6NI=\""
+          "Value": "W/\"JTdNDJ1dsM9QPl5dsrXnQXjiv6s7s7WnTwCrOtQNxII=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "8x5hc40dpo"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-PJSceb6HeC5zZmSbi7WfucmxEEPkvYQOZeS2FJ/q6NI="
+          "Value": "sha256-JTdNDJ1dsM9QPl5dsrXnQXjiv6s7s7WnTwCrOtQNxII="
         }
       ]
     },
     {
-      "Route": "css/site.8x5hc40dpo.css",
+      "Route": "css/site.css",
       "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +2793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2078"
+          "Value": "3936"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +2801,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PJSceb6HeC5zZmSbi7WfucmxEEPkvYQOZeS2FJ/q6NI=\""
+          "Value": "\"JTdNDJ1dsM9QPl5dsrXnQXjiv6s7s7WnTwCrOtQNxII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:28:16 GMT"
+          "Value": "Sun, 18 May 2025 00:16:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JTdNDJ1dsM9QPl5dsrXnQXjiv6s7s7WnTwCrOtQNxII="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-x5tmy2p78f.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1445"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WRd87Bi9LpXGmwdDmuig/6v7RZu9eoxmNKNXtJ3vt1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:16:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WRd87Bi9LpXGmwdDmuig/6v7RZu9eoxmNKNXtJ3vt1I="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.x5tmy2p78f.css",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-x5tmy2p78f.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000691562932"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1445"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WRd87Bi9LpXGmwdDmuig/6v7RZu9eoxmNKNXtJ3vt1I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:16:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JTdNDJ1dsM9QPl5dsrXnQXjiv6s7s7WnTwCrOtQNxII=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x5tmy2p78f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JTdNDJ1dsM9QPl5dsrXnQXjiv6s7s7WnTwCrOtQNxII="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.x5tmy2p78f.css",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JTdNDJ1dsM9QPl5dsrXnQXjiv6s7s7WnTwCrOtQNxII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:16:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +2960,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8x5hc40dpo"
+          "Value": "x5tmy2p78f"
         },
         {
           "Name": "label",
@@ -2831,13 +2968,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PJSceb6HeC5zZmSbi7WfucmxEEPkvYQOZeS2FJ/q6NI="
+          "Value": "sha256-JTdNDJ1dsM9QPl5dsrXnQXjiv6s7s7WnTwCrOtQNxII="
         }
       ]
     },
     {
-      "Route": "css/site.8x5hc40dpo.css.gz",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-8x5hc40dpo.gz",
+      "Route": "css/site.x5tmy2p78f.css.gz",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-x5tmy2p78f.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +2983,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "880"
+          "Value": "1445"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +2991,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"FaQrnSTUDlaQFhmzwfX8NfrUh8RrCTYjDPw1ZJpMi9A=\""
+          "Value": "\"WRd87Bi9LpXGmwdDmuig/6v7RZu9eoxmNKNXtJ3vt1I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:28:16 GMT"
+          "Value": "Sun, 18 May 2025 00:16:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +3013,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "8x5hc40dpo"
+          "Value": "x5tmy2p78f"
         },
         {
           "Name": "label",
@@ -2884,144 +3021,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-FaQrnSTUDlaQFhmzwfX8NfrUh8RrCTYjDPw1ZJpMi9A="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-8x5hc40dpo.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001135073780"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "880"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FaQrnSTUDlaQFhmzwfX8NfrUh8RrCTYjDPw1ZJpMi9A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:28:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"PJSceb6HeC5zZmSbi7WfucmxEEPkvYQOZeS2FJ/q6NI=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PJSceb6HeC5zZmSbi7WfucmxEEPkvYQOZeS2FJ/q6NI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2078"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PJSceb6HeC5zZmSbi7WfucmxEEPkvYQOZeS2FJ/q6NI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:28:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PJSceb6HeC5zZmSbi7WfucmxEEPkvYQOZeS2FJ/q6NI="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/da54fwhcg5-8x5hc40dpo.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "880"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"FaQrnSTUDlaQFhmzwfX8NfrUh8RrCTYjDPw1ZJpMi9A=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:28:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-FaQrnSTUDlaQFhmzwfX8NfrUh8RrCTYjDPw1ZJpMi9A="
+          "Value": "sha256-WRd87Bi9LpXGmwdDmuig/6v7RZu9eoxmNKNXtJ3vt1I="
         }
       ]
     },
@@ -3324,13 +3324,13 @@
       ]
     },
     {
-      "Route": "js/site.js",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-safoqqum36.gz",
+      "Route": "js/site.e2as1theoq.js",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-e2as1theoq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003225806452"
+          "Quality": "0.001438848921"
         }
       ],
       "ResponseHeaders": [
@@ -3340,19 +3340,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "309"
+          "Value": "694"
         },
         {
           "Name": "ETag",
-          "Value": "\"G0JttfVS0IGqjB6DcWYxy0Mr9iettyQ+zTPPz+quPXY=\""
+          "Value": "\"9mYB6SuEm0pfWiU7fvqxLcwFd5DRX9YDdQ6InLbeLTA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:29:02 GMT"
+          "Value": "Sun, 18 May 2025 00:08:14 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3368,18 +3368,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jDpnFqFLKL72WFbA1PaZiXILMewYVda0wI0BaP77MAE=\""
+          "Value": "W/\"ChlmRg3zI+nGAtSN6x3ZjcxvkNyUJelkdUUSuDjwt/k=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "e2as1theoq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-jDpnFqFLKL72WFbA1PaZiXILMewYVda0wI0BaP77MAE="
+          "Value": "sha256-ChlmRg3zI+nGAtSN6x3ZjcxvkNyUJelkdUUSuDjwt/k="
         }
       ]
     },
     {
-      "Route": "js/site.js",
+      "Route": "js/site.e2as1theoq.js",
       "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3389,7 +3397,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "522"
+          "Value": "1458"
         },
         {
           "Name": "Content-Type",
@@ -3397,121 +3405,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jDpnFqFLKL72WFbA1PaZiXILMewYVda0wI0BaP77MAE=\""
+          "Value": "\"ChlmRg3zI+nGAtSN6x3ZjcxvkNyUJelkdUUSuDjwt/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:29:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jDpnFqFLKL72WFbA1PaZiXILMewYVda0wI0BaP77MAE="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js.gz",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-safoqqum36.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "309"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"G0JttfVS0IGqjB6DcWYxy0Mr9iettyQ+zTPPz+quPXY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:29:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-G0JttfVS0IGqjB6DcWYxy0Mr9iettyQ+zTPPz+quPXY="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.safoqqum36.js",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-safoqqum36.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.003225806452"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "309"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"G0JttfVS0IGqjB6DcWYxy0Mr9iettyQ+zTPPz+quPXY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:29:02 GMT"
+          "Value": "Sun, 18 May 2025 00:08:14 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"jDpnFqFLKL72WFbA1PaZiXILMewYVda0wI0BaP77MAE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "safoqqum36"
+          "Value": "e2as1theoq"
         },
         {
           "Name": "label",
@@ -3519,13 +3427,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jDpnFqFLKL72WFbA1PaZiXILMewYVda0wI0BaP77MAE="
+          "Value": "sha256-ChlmRg3zI+nGAtSN6x3ZjcxvkNyUJelkdUUSuDjwt/k="
         }
       ]
     },
     {
-      "Route": "js/site.safoqqum36.js",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/js/site.js",
+      "Route": "js/site.e2as1theoq.js.gz",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-e2as1theoq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3534,7 +3442,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "522"
+          "Value": "694"
         },
         {
           "Name": "Content-Type",
@@ -3542,56 +3450,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jDpnFqFLKL72WFbA1PaZiXILMewYVda0wI0BaP77MAE=\""
+          "Value": "\"9mYB6SuEm0pfWiU7fvqxLcwFd5DRX9YDdQ6InLbeLTA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:29:02 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "safoqqum36"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jDpnFqFLKL72WFbA1PaZiXILMewYVda0wI0BaP77MAE="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.safoqqum36.js.gz",
-      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-safoqqum36.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "309"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"G0JttfVS0IGqjB6DcWYxy0Mr9iettyQ+zTPPz+quPXY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 00:29:02 GMT"
+          "Value": "Sun, 18 May 2025 00:08:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3609,7 +3472,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "safoqqum36"
+          "Value": "e2as1theoq"
         },
         {
           "Name": "label",
@@ -3617,7 +3480,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-G0JttfVS0IGqjB6DcWYxy0Mr9iettyQ+zTPPz+quPXY="
+          "Value": "sha256-9mYB6SuEm0pfWiU7fvqxLcwFd5DRX9YDdQ6InLbeLTA="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-e2as1theoq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001438848921"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "694"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9mYB6SuEm0pfWiU7fvqxLcwFd5DRX9YDdQ6InLbeLTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:08:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ChlmRg3zI+nGAtSN6x3ZjcxvkNyUJelkdUUSuDjwt/k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ChlmRg3zI+nGAtSN6x3ZjcxvkNyUJelkdUUSuDjwt/k="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/wwwroot/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ChlmRg3zI+nGAtSN6x3ZjcxvkNyUJelkdUUSuDjwt/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:08:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ChlmRg3zI+nGAtSN6x3ZjcxvkNyUJelkdUUSuDjwt/k="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js.gz",
+      "AssetFile": "/Users/dhipendertanwer/dotnet/PatientPortal/obj/Debug/net9.0/compressed/3vxvy63sv0-e2as1theoq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9mYB6SuEm0pfWiU7fvqxLcwFd5DRX9YDdQ6InLbeLTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 00:08:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9mYB6SuEm0pfWiU7fvqxLcwFd5DRX9YDdQ6InLbeLTA="
         }
       ]
     },

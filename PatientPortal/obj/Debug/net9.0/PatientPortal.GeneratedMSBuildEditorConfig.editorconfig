@@ -24,8 +24,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dhipendertanwer/dotnet/PatientPortal/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[/Users/dhipendertanwer/dotnet/PatientPortal/Views/Home/Services.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TZXJ2aWNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/dhipendertanwer/dotnet/PatientPortal/Views/LabTests/LabTests.cshtml]
@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/dhipendertanwer/dotnet/PatientPortal/Views/Patient/Patient.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF0aWVudC9QYXRpZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/dhipendertanwer/dotnet/PatientPortal/Views/PatientIntakeForm/PatientIntakeForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUGF0aWVudEludGFrZUZvcm0vUGF0aWVudEludGFrZUZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/dhipendertanwer/dotnet/PatientPortal/Views/Shared/Error.cshtml]

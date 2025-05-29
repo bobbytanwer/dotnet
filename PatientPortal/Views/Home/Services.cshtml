@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Services";
+}
+
+
+
+<h2>Patient Services</h2>
+
+<br>
+<form id=submitlabrequests action="/submitlabrequests" method="post" >
+<table>
+        <tr>
+            <th><input type="checkbox" id="selectAll"></th>
+            <th>LAB Services</th>
+            <th>Cost</th>
+            <th>Home Service</th>
+            <th> Kit Pickup Service </th>
+            <th>Home Service Fee</th>
+        </tr>
+        <tr>
+         <td><input type="checkbox" name="selectedRows[]" value="row1"></td>
+          <td>A1C</td>
+          <td>$100</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>$20</td>
+        </tr>
+        <tr>
+         <td><input type="checkbox" name="selectedRows[]" value="row2"></td>
+          <td>Cholestrol</td>
+          <td>$200</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>$40</td>
+        </tr>
+        <tr>
+         <td><input type="checkbox" name="selectedRows[]" value="row3"></td>
+          <td>blood</td>
+          <td>$200</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>$40</td>
+        </tr>
+        <tr>
+        <td><input type="checkbox" name="selectedRows[]" value="row4"></td>
+          <td>Urine</td>
+          <td>$100</td>
+          <td>YES</td>
+          <td>YES</td>
+          <td>$20</td>
+        </tr>
+
+    </table>
+    <br>
+    <button type="submit"
+            class="submitbutton"
+            id="submit-selected-labs">Submit Selected Rows</button>
+</form>
